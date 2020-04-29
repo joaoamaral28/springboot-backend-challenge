@@ -38,4 +38,19 @@ The Client should allow the programmer to use all the operations of the Web Serv
 
 # The solution
 
+### Web Service
 
+The web service was implemented following a three layer architectural pattern composed by an api controller, a service middleware and a Data Acess Object (DAO).
+
+* The CallController class defines and implements the application API and maps each request to a service layer routine. 
+* The CallService class implements all of the business logic of the application and executes actions on the DAO. 
+* The CallDataAccessService implements the methods specified by the CallDAO interface and directly interacts with the MySQL repository.
+* The Call class contains the model structure of each call and its persistence moduling
+
+### Client
+
+The Client was implemented as a simple python script that communicates with the web service API and its underlying components. 
+
+### Deployment
+
+The deployment of the MySQL database and the creation of the Spring Boot user profile is automated through the build_db.sh script.
