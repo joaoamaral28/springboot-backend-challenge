@@ -3,6 +3,8 @@ My solution of a back-end hiring challenge developed using Spring Boot and MySQL
 
 -------------------------------------------------------------------------------------------------------------
 
+# The problem
+
 The main objective of this challenge is to implement a service to manage a specific resource: Calls. The Call resource represents a phone call between two numbers with the following attributes:
 
 * Caller Number: the phone number of the caller. 
@@ -33,3 +35,7 @@ This Web Service should be able to manage and persist the Call resource, providi
 ### Client
 
 The Client should allow the programmer to use all the operations of the Web Service without having to handle the connection by himself.
+
+# The solution
+
+
