@@ -1,5 +1,5 @@
 # SpringbootBackendChallenge
-My solution of a back-end hiring challenge developed using Spring Boot
+My solution of a back-end hiring challenge developed using Spring Boot and MySQL
 
 -------------------------------------------------------------------------------------------------------------
 
